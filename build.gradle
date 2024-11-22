@@ -18,8 +18,15 @@ test {
     useJUnitPlatform()
 }
 
-defaultTasks 'compileJava'
+jar {
+    manifest {
+        attributes 'Main-Class': 'se.yrgo.ui.Main'
+    }
+}
 
-//task runDefaultTasks {
-//    depensOn 'compileJava'
-//}
+task(runmain, dependsOn: 'classes', type: JavaExec) {
+    mainClass = "se.yrgo.ui.Main"
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+defaultTasks 'clean', 'compileJava', 'test', 'jar', 'javadoc', 'runmain'
