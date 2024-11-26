@@ -30,3 +30,4 @@ task(runmain, dependsOn: 'classes', type: JavaExec) {
 }
 
 defaultTasks 'clean', 'compileJava', 'test', 'jar', 'javadoc', 'runmain'
+

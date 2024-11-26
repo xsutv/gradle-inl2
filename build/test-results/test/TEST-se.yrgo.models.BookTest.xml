@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="se.yrgo.models.BookTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-22T13:39:07" hostname="Haimens-MacBook-Pro.local" time="0.001">
+<testsuite name="se.yrgo.models.BookTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-26T13:46:17" hostname="Haimens-MacBook-Pro.local" time="0.001">
   <properties/>
   <testcase name="test2NonEqualBooks()" classname="se.yrgo.models.BookTest" time="0.0"/>
   <testcase name="test2EqualBooks()" classname="se.yrgo.models.BookTest" time="0.0"/>
